@@ -14,8 +14,12 @@ def deps do
   ]
 end
 ```
+##how Map.update works
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/duper>.
+takes 4 args
+one is the map, list, tuple
+two, the value you want to search
+three - the default value of the number two when there is that value
+four - takes a function that will be performed when number two is found
+
 
